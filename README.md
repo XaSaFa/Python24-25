@@ -40,7 +40,7 @@
 1.- Feu un programa que pregunti les dades necessàries a l'usuari i calculi el perímetre i l'àrea d'un triangle.
 
 - [Bateria de problemes](bateria.md)
-- [Calculadora](calculadora.md)
+- [Calculadora resolt](calculadora2.md)
 - [Asteriscs](asteriscs.md)
 
 ## Portfolio
