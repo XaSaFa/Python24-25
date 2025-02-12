@@ -68,15 +68,4 @@ Per exemple, el factorial de 5 és: ```5*4*3*2*1```
 
 Feu el mateix programa utilitzant un break dins el bucle.
 
-```
-fact = int(input("Introdueix un numero per fer el factorial: "))
-resultat = 1
-fact_inicial = fact
-while fact >0: 
-        resultat = resultat * fact
-        fact -= 1
-        print("Resultat: ",resultat)
-        print("Fact: ",fact)
 
-print("El factorial del numero ", fact_inicial, "és: ", resultat)
-```
