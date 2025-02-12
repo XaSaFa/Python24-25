@@ -64,8 +64,7 @@ Aquest programa s'acaba quan a val 5.
 
 1. Fes un programa que pregunta un número a l'usuari i imprimeix "Hola" tantes vegades com el número introduït.
 2. Fes un programa que pregunta un número a l'usuari i compta des d'aquest número fins a zero.
-3. Fes un programa que pregunta dos números a l'usuari i escriu els números des del més baix fins al més alt.
-4. Fes un programa que pregunti un número a l'usuari i retorni el valor factorial d'aquell número.
+3. Fes un programa que pregunti un número a l'usuari i retorni el valor factorial d'aquell número.
 
 Per exemple, el factorial de 5 és: ```5*4*3*2*1```
 
