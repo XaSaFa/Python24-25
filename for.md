@@ -65,5 +65,8 @@ for externa in range(1,4):
 
 1. Fes la funció factorial utilitzant un bucle for.
 2. Fes un programa que pregunti un número i et tregui la seva taula de multiplicar.
+3. Fes un programa que pregunta dos números a l'usuari i escriu els números des del més baix fins al més alt.
+4. Fes un programa que pregunta una paraula a l'usuari i després mostra lletra a lletra.
+5. Fes un programa que pregunta coses que has de comprar i cada vegada mostra la llista de la compra (utilitzant una llista).
 
 🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎
