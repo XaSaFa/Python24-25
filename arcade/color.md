@@ -43,7 +43,7 @@ while True: # main game loop
 
 **Activitats:**
 
-Canvia el programa anterior per dibuixar una finestra amb els següents colors de fons:
+Canvia el programa anterior per fer que l'usuari escolli un color de la taula següent i el programa dibuixi una finestra del color seleccionat de fons.
 
 ![image](https://github.com/XaSaFa/IntroduccioProgramacio/assets/110727546/7547355b-8224-4551-9e5a-cb04c58b835a)
 
