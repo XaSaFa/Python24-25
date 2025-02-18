@@ -41,10 +41,6 @@
 
 - [Bateria de problemes](bateria.md)
 - [Calculadora resolt](calculadora2.md)
-- [Asteriscs](asteriscs.md)
 
-## Portfolio
 
-- [Github portfolio](https://pages.github.com/)
-- [Github Desktop](https://github.com/XaSaFa/MP08/blob/main/webPersonalGithub.md)
-- [Exemple de portfolios](https://bootstrapmade.com/bootstrap-portfolio-templates)
+
