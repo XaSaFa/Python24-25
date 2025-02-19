@@ -17,7 +17,6 @@ import pygame, sys
 
 WIDTH = 640
 HIGH = 480
-LOGO_IMAGE = "assets/moon.png"
 CAPTION_TEXT = "My Space Game"
 # create a surface on screen that has the size of 640 x 480
 screen = pygame.display.set_mode((WIDTH, HIGH))
@@ -26,11 +25,6 @@ screen = pygame.display.set_mode((WIDTH, HIGH))
 def main():
     # initialize the pygame module
     pygame.init()
-    # load and set the logo
-    logo = pygame.image.load(LOGO_IMAGE)
-    # set the logo of the screen
-    pygame.display.set_icon(logo)
-    # set the caption of the screen
     pygame.display.set_caption(CAPTION_TEXT)    
     # define a variable to control the main loop
     running = True
@@ -77,10 +71,10 @@ Aquests fitxers els guardarem dins una carpeta anomenada assets al nostre projec
 
 **Activitats:**
 
-1. Crea una finestra amb una icona d'un animal, de títol "Zoo X" on X és el teu cognom, tamany 320x200 i color de fons groc.
-2. Crea una finestra amb una icona d'un peix, de títol "Ocean X" on X és el teu cognom, tamany 640x480 i color de fons blau.
-3. Crea una finestra amb una icona d'un planeta, de títol "Space X" on X és el teu cognom, tamany 1280x720 i color de fons gris.
-4. Crea una finestra amb una icona d'un tanc, de títol "War X" on X és el teu cognom, tamany 800x600 i color de fons verd.
+1. Crea una finestra de títol "Zoo X" on X és el teu cognom, tamany 320x200 i color de fons groc.
+2. Crea una finestra de títol "Ocean X" on X és el teu cognom, tamany 640x480 i color de fons blau.
+3. Crea una finestra de títol "Space X" on X és el teu cognom, tamany 1280x720 i color de fons gris.
+4. Crea una finestra de títol "War X" on X és el teu cognom, tamany 800x600 i color de fons verd.
 
 🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎
 
