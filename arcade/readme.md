@@ -18,6 +18,10 @@
 12. [Vides](vides.md)
 13. [Matrius](matriu.md)
 
+## Exemples:
+
+- [Exemple Rectangle](rectangle_exemple.md)
+
 ## Activitats puntuables:
 
 - [Activitat puntuable 1: Concurs de creació de cares gracioses](concurs.md)
