@@ -133,6 +133,18 @@ Podem dibuixar només la vora, per exemple el mateix cercle sense farcir, amb un
 pygame.draw.circle(pantalla, VERMELL, (300,300),100,5)
 ```
 
+🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎
+
+1.- Fes un dibuix amb cercles sense farcir de les anelles olímpiques
+
+![image](https://github.com/user-attachments/assets/f2cbdb9b-9717-4fac-b84e-e152c6f04aca)
+
+2.- Fes un dibuix d'aquesta figura
+
+![image](https://github.com/user-attachments/assets/ea693b70-b5cb-457b-b97f-767c98f39c26)
+
+🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎�
+
 ![image](https://github.com/XaSaFa/IntroduccioProgramacio/assets/110727546/ce9977ab-a4cd-4056-8bb9-678587ccf00b)
 
 ## Línia:
