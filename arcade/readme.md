@@ -6,7 +6,7 @@
 3. [Colors](color.md)
 4. [Formes](formes.md)
    - [Activitats formes](activitats_formes.md)
-   
+   - [Efecte de pluja en moviment](pluja.py)
 5. [Formes transparents](transparencia.md)
 6. [Imprimir Text](text.md)
     - [Activitat: Imprimir menú](activitat_menu.md)
