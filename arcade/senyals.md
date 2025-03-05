@@ -8,4 +8,6 @@ Aplicant tot el que heu après feu les següents senyals a Pygame
 
 ![image](https://github.com/user-attachments/assets/e57157a5-af93-4e09-ad17-987aa4899086)
 
+![image](https://github.com/user-attachments/assets/70fd9544-ea6e-4cf6-a08b-a198bfc0aca7)
+
 
