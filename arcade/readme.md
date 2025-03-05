@@ -11,6 +11,7 @@
 5. [Formes transparents](transparencia.md)
 6. [Imatges](imatges.md)
 7. [Imprimir Text](text.md)
+    - [Activitat: Senyals tràfic](senyals.md)
     - [Activitat: Imprimir menú](activitat_menu.md)
 8. [So](sound.md)
 9. [Frames per second](fps.md)
