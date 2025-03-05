@@ -30,6 +30,29 @@ while True:
         pygame.display.update()
 ```
 
+# Imatge al mig de la pantalla
+
+```
+# En aquest exemple mostrem una imatge d'un orc a una pantalla de 640x480:
+import pygame
+orc_image = 'assets/orco.png'
+pygame.init()
+AMPLADA = 800
+ALTURA = 600
+pantalla = pygame.display.set_mode((AMPLADA, ALTURA))
+orc = pygame.image.load(orc_image)
+rectangle_orc = orc.get_rect()
+amplada_orc = rectangle_orc.width
+altura_orc = rectangle_orc.height
+while True:
+    pantalla.fill((255,255,255))
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+        pantalla.blit(orc, (AMPLADA/2-amplada_orc/2,ALTURA/2-altura_orc/2))
+        pygame.display.update()
+```
+
 Si volem que la imatge estigui a una altra posició hem de canviar les coordenades a la línia ```pantalla.blit(orc, (0, 0))```
 
 🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎
