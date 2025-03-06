@@ -55,6 +55,37 @@ while True:
 
 Si volem que la imatge estigui a una altra posició hem de canviar les coordenades a la línia ```pantalla.blit(orc, (0, 0))```
 
+# Personatge en moviment
+
+```
+import pygame
+# Carreguem les imatges
+personatge = pygame.image.load('assets/orc.png')
+background = pygame.image.load('assets/background.jpg')
+# Iniciem pygame
+pygame.init()
+# Definim amplada i alçada de la pantalla
+AMPLADA = 800
+ALCADA = 404
+pantalla = pygame.display.set_mode((AMPLADA, ALCADA))
+# variables pel moviment del personatge
+posicio_x = 0
+direccio = 1
+while True:
+    # Mostrem el fons
+    pantalla.blit(background,(0,0))
+    # mostrem el personatge
+    pantalla.blit(personatge, (posicio_x, 200))
+    posicio_x = posicio_x + direccio
+    # Si el personatge surt de pantalla canviem la direcció de moviment
+    if posicio_x > AMPLADA or posicio_x < 0:
+        direccio = direccio * -1
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+    pygame.display.update()
+```
+
 🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎🔎
 - Activitat 1: Quines seran les coordenades del programa si volem que l'orc es mostri al mig de la pantalla?
 - Activitat 2: Busca una imatge d'un paisatge i dibuixa una imatge d'un personatge davant.
