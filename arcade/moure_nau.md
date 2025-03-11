@@ -11,8 +11,8 @@ import time
 from pygame.locals import *
 import pygame
 
-AMPLADA = 320
-ALTURA = 200
+AMPLADA = 800
+ALTURA = 600
 BACKGROUND_IMAGE = 'assets/fons.png'
 player_image = pygame.image.load('assets/nau.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
