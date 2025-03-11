@@ -67,8 +67,8 @@ import time
 from pygame.locals import *
 import pygame
 
-AMPLADA = 320
-ALTURA = 200
+AMPLADA = 800
+ALTURA = 600
 BACKGROUND_IMAGE = 'assets/fons.png'
 MUSICA_FONS = 'assets/music.mp3'
 WHITE = (255,255,255)
@@ -78,12 +78,12 @@ WHITE = (255,255,255)
 # Jugador 1:
 player_image = pygame.image.load('assets/nau.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
-velocitat_nau = 1
+velocitat_nau = 4
 
 # Jugador 2:
-player_image2 = pygame.image.load('assets/nau2.png')
-player_rect2 = player_image2.get_rect(midbottom=(AMPLADA // 2, ALTURA - 150))
-velocitat_nau2 = 1
+player_image2 = pygame.image.load('assets/nau.png')
+player_rect2 = player_image2.get_rect(midbottom=(AMPLADA // 2, ALTURA - 500))
+velocitat_nau2 = 4
 
 # Bala rectangular blanca:
 bala_imatge = pygame.Surface((4,10)) #definim una superficie rectangle de 4 pixels d'ample i 10 d'alçada
