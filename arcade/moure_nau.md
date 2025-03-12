@@ -17,7 +17,7 @@ BACKGROUND_IMAGE = 'assets/fons.png'
 player_image = pygame.image.load('assets/nau.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
 velocitat_nau = 1
-MUSICA_FONS = 'assets/music.mp3'
+# MUSICA_FONS = 'assets/music.mp3'
 
 pygame.init()
 pantalla = pygame.display.set_mode((AMPLADA, ALTURA))
