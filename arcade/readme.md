@@ -24,6 +24,7 @@
 ## Exemples:
 
 - [Exemple Rectangle](rectangle_exemple.md)
+- [Exemple - Personatge que es mou lliurement per un escenari](https://github.com/XaSaFa/scroll_background)
 
 ## Activitats puntuables:
 
