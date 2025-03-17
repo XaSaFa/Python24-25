@@ -20,3 +20,7 @@
 
 # 6
 
+![image](https://github.com/user-attachments/assets/cf113282-aa35-471e-8ba8-12d74807296c)
+
+
+# 7
