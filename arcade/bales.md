@@ -187,7 +187,7 @@ while True:
 ```
 
 
-Exemple amb vides de jugador 1:
+# Exemple amb vides de jugador 1:
 
 ```
 import time
