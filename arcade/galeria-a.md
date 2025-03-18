@@ -26,3 +26,15 @@
 # 7
 
 ![Pluja](pluja.gif)
+
+# 8
+
+![image](https://github.com/user-attachments/assets/ac8be2fc-c8a1-46e1-a9d3-6d8082b44beb)
+
+# 9
+
+![image](https://github.com/user-attachments/assets/feb2e46d-febe-49e4-a515-5b70fe511b79)
+
+# 10
+
+
