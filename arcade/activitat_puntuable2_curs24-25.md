@@ -26,4 +26,12 @@
 # Codi que queda per fer:
 - Quan una nau perd totes les vides, surt una pantalla de game over, sona la música de game over i surt un text indicant quin jugador ha guanyat.
 - Menú inici.
+  - Títol del joc.
+  - 1.- Jugar
+  - 2.- Crèdits
+  - 3.- Sortir
 - Crédits.
+  - Programació.
+  - Gràfics.
+  - Música i So.
+
