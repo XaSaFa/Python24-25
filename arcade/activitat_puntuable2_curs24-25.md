@@ -11,6 +11,7 @@
 
 # Sons
 
+- Música pantalla menú
 - Música principal
 - Música Game Over
 - Efecte de so de jugador 1 disparant
