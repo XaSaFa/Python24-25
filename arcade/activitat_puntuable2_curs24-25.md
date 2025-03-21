@@ -1,3 +1,13 @@
+# Rúbrica
+
+4 punts - Extres a escollir per l'alumne.
+1 punt - Música i sons adients.
+1 punt - Gràfics adients.
+1 punt - Pantalla de menú.
+1 punt - Pantalla de crèdits.
+1 punt - Pantalla de Game Over.
+1 punt - El joc funciona correctament.
+
 # Imatges
 
 - Nau jugador 1
