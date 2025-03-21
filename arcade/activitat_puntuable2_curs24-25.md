@@ -50,14 +50,15 @@ BACKGROUND_IMAGE = 'assets/fons.png'
 MUSICA_FONS = 'assets/music.mp3'
 WHITE = (255,255,255)
 MAGENTA = (207,52,118)
-
+GREEN = (0,255,0)
+BLUE = (0,0,255)
 
 # pantalles:
 # pantalla 1 = Menú
 # pantalla 2 = Crèdits
 # pantalla 3 = Joc
 # pantalla 4 = Game Over!
-pantalla_actual = 3
+pantalla_actual = 1
 
 # Vides jugador 1:
 vides_image1 = pygame.image.load('assets/vida_jugador1.png')
@@ -99,8 +100,45 @@ def imprimir_pantalla_fons(image):
     background = pygame.image.load(image).convert()
     pantalla.blit(background, (0, 0))
 
-while True:
+def mostrar_menu():
+    # Mostrar imatge de fons del menú
+    imprimir_pantalla_fons('assets/fons.png')
+    font1 = pygame.font.SysFont(None, 100)
+    font2 = pygame.font.SysFont(None, 80)
+    img1 = font1.render("Monkey Space!", True, MAGENTA)
+    img2 = font2.render("1. Jugar", True, GREEN)
+    img3 = font2.render("2. Crèdits", True, GREEN)
+    img4 = font2.render("3. Sortir", True, GREEN)
+    pantalla.blit(img1, (100, 30))
+    pantalla.blit(img2, (100, 130))
+    pantalla.blit(img3, (100, 230))
+    pantalla.blit(img4, (100, 330))
 
+def mostrar_credits():
+    # Mostrar imatge de fons del menú
+    imprimir_pantalla_fons('assets/fons.png')
+    font1 = pygame.font.SysFont(None, 100)
+    font2 = pygame.font.SysFont(None, 80)
+    font3 = pygame.font.SysFont(None, 60)
+    img1 = font1.render("Monkey Space!", True, MAGENTA)
+    img2 = font2.render("Programació:", True, GREEN)
+    img3 = font2.render("Gràfics:", True, GREEN)
+    img4 = font2.render("Música:", True, GREEN)
+    img5 = font2.render("Sons:", True, GREEN)
+    img6 = font3.render("Xavier Sancho:", True, BLUE)
+    img7 = font3.render("After Burner 3 - Sega", True, BLUE)
+    img8 = font3.render("Freesound.org", True, BLUE)
+    pantalla.blit(img1, (100, 30))
+    pantalla.blit(img2, (100, 130))
+    pantalla.blit(img3, (100, 230))
+    pantalla.blit(img4, (100, 330))
+    pantalla.blit(img5, (100, 430))
+    pantalla.blit(img6, (250, 190))
+    pantalla.blit(img6, (250, 290))
+    pantalla.blit(img7, (250, 390))
+    pantalla.blit(img8, (250, 490))
+
+while True:
     #contador
     current_time = pygame.time.get_ticks()
 
@@ -108,7 +146,35 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
 
-        # controlar trets de les naus
+        # Pantalla de Game Over
+        if pantalla_actual == 4:
+            # Restauro vides dels jugadors
+            vides_jugador2 = 3
+            vides_jugador1 = 3
+            # Elimino les bales del joc
+            for i in bales_jugador1:
+                bales_jugador1.remove(i)
+            for i in bales_jugador2:
+                bales_jugador2.remove(i)
+            if event.type == KEYDOWN:
+                if event.key == K_SPACE:
+                    pantalla_actual = 1
+        # Pantalla de crèdits
+        if pantalla_actual == 2:
+            if event.type == KEYDOWN:
+                if event.key == K_SPACE:
+                    pantalla_actual = 1
+        # Pantalla de menú
+        if pantalla_actual == 1:
+            if event.type == KEYDOWN:
+                if event.key == K_1:
+                    pantalla_actual = 3
+                if event.key == K_2:
+                    pantalla_actual = 2
+                if event.key == K_3:
+                    pygame.quit()
+
+            # controlar trets de les naus
         if pantalla_actual == 3:
             if event.type == KEYDOWN:
                 #jugador 1
@@ -122,11 +188,11 @@ while True:
 
     # Mostrar Pantalla de Menú:
     if pantalla_actual == 1:
-        pass
+        mostrar_menu()
     # Mostrar Pantalla de Crèdits:
     elif pantalla_actual == 2:
-        pass
-    
+        mostrar_credits()
+
     # Mostrar Pantalla de Game Over:
     elif pantalla_actual == 4:
         imprimir_pantalla_fons('assets/game_over1.png')
