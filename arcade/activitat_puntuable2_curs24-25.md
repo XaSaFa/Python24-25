@@ -1,3 +1,7 @@
+# Enunciat
+
+Entregueu link a un repositori públic amb la vostra carpeta assets i el fitxer del joc que es digui joc.py
+
 # Rúbrica
 
 - 4 punts - Extres a escollir per l'alumne.
