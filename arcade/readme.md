@@ -32,6 +32,7 @@
 - [Activitat puntuable 2: Joc 1 versus 1](activitat_puntuable2_curs24-25.md)
    - [Funció show_menu](show_menu.py)
    - [Funció show_credits](show_credits.py)
+   - [Codi provisional - Grup A](v0.py)
 - Activitat puntuable 3:
    - [SMX-A Clon de Flappy Bird](activitat4.md)
    - [SMX-B Clon de Tetris](activitat5.md)
