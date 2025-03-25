@@ -30,6 +30,7 @@
 
 - [Activitat puntuable 1: Concurs de creació de cares gracioses](concurs.md)
 - [Activitat puntuable 2: Joc 1 versus 1](activitat_puntuable2_curs24-25.md)
+   - [Funció show_menu](show_menu.md)
 - Activitat puntuable 3:
    - [SMX-A Clon de Flappy Bird](activitat4.md)
    - [SMX-B Clon de Tetris](activitat5.md)
