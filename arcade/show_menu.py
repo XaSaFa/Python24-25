@@ -1,4 +1,4 @@
-def mostrar_menu():
+def show_menu():
     imprimir_pantalla_fons(BACKGROUND_IMAGE)
     text0 = "SPACE UFOS!"
     text1 = "1. Començar partida"
