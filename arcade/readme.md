@@ -34,8 +34,7 @@
    - [Funció show_credits](show_credits.py)
    - [Codi provisional - Grup A](v0A.py)
 - Activitat puntuable 3:
-   - [SMX-A Clon de Flappy Bird](activitat4.md)
-   - [SMX-B Clon de Tetris](activitat5.md)
+   - [projecte final](projecte-grup-A.md)
 
 # Exemple menu inici:
 
