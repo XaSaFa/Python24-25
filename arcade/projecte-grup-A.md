@@ -1,4 +1,4 @@
-# Projecte final
+# Projecte final - Grup A
 ## Joc estil plataformes
 
 ## Grups
