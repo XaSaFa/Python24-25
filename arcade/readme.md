@@ -34,7 +34,7 @@
    - [Funció show_credits](show_credits.py)
    - [Codi provisional - Grup A](v0A.py)
 - Activitat puntuable 3:
-   - [projecte final](projecte-grup-A.md)
+   - [projecte final - Grup A](projecte-grup-A.md)
 
 # Exemple menu inici:
 
