@@ -22,3 +22,9 @@
 
 - [Coding with Russ](http://www.codingwithruss.com/)
 - [Level Editor](https://www.youtube.com/watch?v=-vQPEfK_GJQ)
+- Instal·lar Github Desktop a Linux:
+
+```
+wget https://github.com/shiftkey/desktop/releases/download/release-3.4.3-linux1/GitHubDesktop-linux-amd64-3.4.3-linux1.deb
+sudo dpkg -i GitHubDesktop-linux-amd64-3.4.3-linux1.deb
+```
