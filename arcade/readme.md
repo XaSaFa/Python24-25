@@ -38,6 +38,7 @@
    - [projecte final - Grup B](projecte-grup-B.md) 
    - [Exemple animació personatge](exemple_animacio_personatge.py)
       - Per a que funcioni necessiteu les imatges:
+        
         ![image](https://github.com/user-attachments/assets/86901ae3-b10a-4a9f-9950-c50e88642cb9)
 
 
