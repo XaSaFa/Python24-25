@@ -35,7 +35,8 @@
    - [Codi provisional - Grup A](v0A.py)
 - Activitat puntuable 3:
    - [projecte final - Grup A](projecte-grup-A.md)
-   - [projecte final - Grup B](projecte-grup-B.md)
+   - [projecte final - Grup B](projecte-grup-B.md) 
+   - [Exemple animació personatge](exemple_animacio_personatge.py) 
 
 # Exemple menu inici:
 
